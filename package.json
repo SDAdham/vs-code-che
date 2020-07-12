@@ -1,6 +1,11 @@
 {
 	"name": "vs-code-che",
 	"displayName": "vs-code-che",
+	"publisher": "SDAdham",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/SDAdham/vs-code-che"
+	},
 	"description": "Integrates Visual Studio Code with Eclipse Che",
 	"version": "0.0.1",
 	"engines": {
