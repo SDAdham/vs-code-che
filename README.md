@@ -1,12 +1,16 @@
-# vs-code-che README
+# vs-code-che
 
-This is the README for your extension "vs-code-che". After writing up a brief description, we recommend including the following sections.
+This extension is intended to integrate `code-server` with `Eclipse Che` in `Eclipse Che` environment. See [Eclipse Che](https://www.eclipse.org/che).
+
+For more information about this extension, visit [https://github.com/SDAdham/vs-code-che](https://github.com/SDAdham/vs-code-che)
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Commands to use from the Command Palette (`Ctrl+Shift+P`):
 
-For example if there is an image subfolder under your extension project workspace:
+* `Show Che's workspace name`: displays current workspace name you are in.
+* `Show Che's navbar`: Shows `che` navbar.
+* `Hides Che's navbar`: Hides `che` navbar.
 
 \!\[feature X\]\(images/feature-x.png\)
 
@@ -37,15 +41,7 @@ Users appreciate release notes as you update your extension.
 
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Initial release
 
 -----------------------------------------------------------------------------------------------------------
 
