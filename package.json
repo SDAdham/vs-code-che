@@ -1,37 +1,37 @@
 {
 	"name": "vs-code-che",
-	"displayName": "vs-code-che",
+	"displayName": "VS Code Che",
 	"publisher": "SDAdham",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/SDAdham/vs-code-che"
 	},
 	"description": "Integrates Visual Studio Code with Eclipse Che",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
-		"vscode": "^1.47.0"
+		"vscode": "^1.45.1"
 	},
 	"categories": [
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:che.showWorkspaceName",
-		"onCommand:che.showNav",
-		"onCommand:che.hideNav"
+		"onCommand:vs-code-che.showWorkspaceName",
+		"onCommand:vs-code-che.showNav",
+		"onCommand:vs-code-che.hideNav"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "che.showWorkspaceName",
+				"command": "vs-code-che.showWorkspaceName",
 				"title": "Show Che's workspace name"
 			},
 			{
-				"command": "che.showNav",
+				"command": "vs-code-che.showNav",
 				"title": "Show Che's navbar"
 			},
 			{
-				"command": "che.hideNav",
+				"command": "vs-code-che.hideNav",
 				"title": "Hide Che's navbar"
 			}
 		]
@@ -45,7 +45,7 @@
 		"test": "node ./out/test/runTest.js"
 	},
 	"devDependencies": {
-		"@types/vscode": "^1.47.0",
+		"@types/vscode": "^1.45.1",
 		"@types/glob": "^7.1.1",
 		"@types/mocha": "^7.0.2",
 		"@types/node": "^13.11.0",
